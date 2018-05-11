@@ -28,3 +28,8 @@ use Mix.Config
 # here (which is why it is important to import them last).
 #
 #     import_config "#{Mix.env}.exs"
+
+config :steemex,
+  # api: :jsonrpc_ws_api,
+  # api_url: "wss://gtg.steem.house:8090",
+  activate_stage_sup: true
